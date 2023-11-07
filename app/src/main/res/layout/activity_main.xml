@@ -10,6 +10,7 @@
 
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="23sp"
@@ -18,7 +19,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -32,7 +33,10 @@
                    android:id="@+id/cardName"
                    android:layout_marginStart="25dp"
                    android:layout_marginTop="19dp"
-                   android:fontFamily=""
+                   android:fontFamily="@font/Montserrat-Black.tff"
+
+
+
 
 
 
